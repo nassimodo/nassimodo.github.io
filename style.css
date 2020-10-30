@@ -9,7 +9,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.body {
+body {
   background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
 
@@ -18,19 +18,9 @@ html, body {
   margin-bottom: 2px;
 }
 
+
 .left {
   align-items: center;
-  justify-content: center;
-}
-
-.left, .right {
-  background-color: lightblue;
-
-  margin: 5px;
-  max-width: 50%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
