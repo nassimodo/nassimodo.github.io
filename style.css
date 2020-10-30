@@ -9,17 +9,18 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.body {
+  background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+}
+
 .name {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 2px;
 }
+
 .left {
   align-items: center;
   justify-content: center;
-}
-
-.profile-picture {
-  border-radius: 50%;
 }
 
 .social-links {
@@ -40,8 +41,4 @@ html, body {
 
 .social-links a:hover {
   background-color: rgba(0, 0, 0, 0.1);
-}
-
-.body {
-  background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
